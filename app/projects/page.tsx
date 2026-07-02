@@ -2,7 +2,12 @@ import PayWall from '@/components/PayWall'
 import Paywall from '@/components/PayWall'
 import { Button } from '@/components/ui/button'
 import { Waves } from 'lucide-react'
+import { Metadata } from 'next'
 import React from 'react'
+
+export const metadata: Metadata = {
+    title: 'Projects'
+}
 
 const projects = () => {
   return (

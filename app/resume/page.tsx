@@ -11,11 +11,16 @@ import {
 import { Separator } from '@/components/ui/separator'
 import { Education, References } from '@/public/Data'
 import { ArrowLeft, Dot, Download, Mail, Phone, Star} from 'lucide-react'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { BiHardHat } from 'react-icons/bi'
 import { MdOutlineWorkHistory } from 'react-icons/md';
 import { PiGraduationCapBold } from 'react-icons/pi'
+
+export const metadata: Metadata = {
+  title: 'Resume'
+}
 
 const resume = () => {
   return (
