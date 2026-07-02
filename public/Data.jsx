@@ -472,7 +472,7 @@ export const DashboardStats = [
     },
 ]
 
-export let WebsiteStatus = [
+export const WebsiteStatus = [
     {
         site: 'imperialmedia',
         state: 1,
