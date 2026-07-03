@@ -42,7 +42,8 @@ export default function Page() {
             <div className="hidden md:flex flex-col md:w-1/3 items-center justify-center select-none">
                 {/* <Image src='/logo-light.png' height={400} width={400} alt="Main Attraction" /> */}
                 {/* <Image src='/test/logos/westpac-group.svg' height={400} width={400} alt="Something"/> */}
-                <Image src='/logos/' height={400} width={400} alt="Something" className="" loading="eager"/>
+                <Image src='/logos/logo-dark.png' height={400} width={400} alt="Something" className="not-dark:hidden" loading="eager"/>
+                <Image src='/logos/logo-light-temp.png' height={400} width={400} alt="Something" className="dark:hidden" loading="eager"/>
                 
             </div>
           </div>
